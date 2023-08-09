@@ -1,5 +1,5 @@
 function MissionSetup()
-	PlayerSetPosXYZArea(270,-110,6,0)
+  PlayerSetPosXYZArea(270,-110,6,0)
   PedSetEffectedByGravity(0, false)
   DisablePunishmentSystem(true)
   CameraFollowPed(0)
