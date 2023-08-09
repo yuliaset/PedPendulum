@@ -20,7 +20,6 @@ function main()
   Wait(5000)
   j = 0
   repeat
-    TextPrintString("Angle: ", 4, 1)
     if j == 0 then
       px, py, pz = PlayerGetPosXYZ()
       CameraSetXYZ(px, py+90, pz+80)
